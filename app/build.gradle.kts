@@ -1,37 +1,20 @@
 plugins {
-
     id("com.android.application")
-
     id("org.jetbrains.kotlin.android")
-
-    id("kotlin-kapt")
-
+    id("org.jetbrains.kotlin.kapt")
 }
 
-
-
 android {
-
     namespace = "com.example.intaketracker"
-
     compileSdk = 34
 
-
-
     defaultConfig {
-
         applicationId = "com.example.intaketracker"
-
         minSdk = 26
-
         targetSdk = 34
-
         versionCode = 1
-
         versionName = "1.0"
-
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-
     }
 
     compileOptions {
